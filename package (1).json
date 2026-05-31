@@ -1,0 +1,73 @@
+{
+  "name": "language-translator",
+  "version": "1.0.0",
+  "description": "A powerful translation tool supporting 17 languages including Tamil, Telugu, Malayalam, Kannada, and Tanglish",
+  "author": "Codealpha Intern",
+  "license": "MIT",
+  "private": false,
+  "homepage": "https://github.com/yourusername/language-translator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/language-translator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/language-translator/issues"
+  },
+  "keywords": [
+    "translation",
+    "translator",
+    "language",
+    "multi-language",
+    "react",
+    "tts",
+    "text-to-speech",
+    "tamil",
+    "telugu",
+    "malayalam",
+    "kannada",
+    "tanglish",
+    "ai",
+    "claude",
+    "anthropic"
+  ],
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.263.1"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.1",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/user-event": "^13.5.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
